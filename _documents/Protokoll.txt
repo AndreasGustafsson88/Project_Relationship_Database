@@ -1,0 +1,133 @@
+Tänk för fanken på att Brancha ut!
+
+Onsdag 11 November
+
+Har tillsammans gått igenom ER-diagram och kollar 
+igenom alla Sekundär Nycklar och går igenom CASCADE, SET NULL,RESTRICDED
+
+Skapar 'Dummy data för att testa i MySQL'
+
+Delar upp så att alla får göra några tabeller själva. 
+
+Tabeller som är kvar Order_Details, Carmodels_Spareparts, Spareparts_Stores
+
+Nästa stand-up Torsdag 12 November för att fortsätta jobba med 'Dummy data'.
+
+	FREDAG 13 / 11
+
+Har gjort:
+Alla har under gårdagen jobbat med att testa queries för att se över funktionaliteten i MySQL databasen.
+Vi gick även igenom grundläggande relationer och hur vi ska bygga upp det i SQLAlchemy.
+
+
+Ska göra:
+Börja med att bygga klasser och tabeller i SQLAlchemy. Vi kommer gemensamt gå igenom hur vi skapar de första klasserna och sedan dela upp de resterande och göra dem i par.
+
+Vi gick tillsammans igenom Tabellerna:
+-spareparts
+-carmodels
+-manufacturers
+-suppliers
+-carmodels_spareparts
+
+Andreas & Oscar jobbar vidare med tabellerna:
+-private_customers
+-company_customers
+-customers
+-customer_cars
+
+
+Astrid & Oskar jobbar vidare med tabellerna:
+-company_contacts
+-stores
+-orders
+-employees
+
+
+
+	Måndag 16 November
+Ska göra:
+Göra klart dom sista modellerna och se till funktionaliteten på dessa.
+Göra om strukturen i projektet.
+
+Astrid & Oskar 
+-jobbar vidare med sina modellerna.
+
+Andreas & Oscar
+-Jobbar med relationerna mellan orders och spareparts.
+
+
+
+
+Tillsammans gått igenom
+Spareparts_stores, samt kikat igenom dom olika modellerna
+
+2020-11-17
+Igår gjorde vi klart alla modeller och gick igenom tillsammans. Idag ska vi testa att skapa en databas genom sqlalchemy samt skapa i alembic.
+
+2020-11-18
+
+Lektionsdag, Oskar och Oscar skapar en indelning för mapparna. Anderas och Astrid går igenom CASCADE m.m i SQLAlchemy modellerna, Anderas uppdaterat relationer i Modellerna.
+
+2020-11-19 
+
+- Löser lite buggar med repern tilsammans. Fortsätter med Alembic och migrations.
+- Kvar att göra är menyn, repo, controllers, lägga i mer data. Delar upp arbetet med menyn. Börjar med menyn. 
+
+
+
+2020-11-20
+
+Går igenom hur vi ska strukturera menyerna. Gör ett gemensamt dokument för att sen dela in arbetsuppgifterna.
+
+Andreas & Astrid jobbar med kundmeny
+
+Oscar & Onkar jobbar med produktmeny.
+
+
+
+2020-11-21
+
+Andreas & Astrid satt under lördagen och gick igenom customer menyn lite mer.
+La till lite funktionallitet och tänkte över upplägget.
+
+
+
+2020-11-22
+Oscar satt med order menyn, för att kunna skapa en order. Löste det mesta förutom customer/order-id
+
+
+2020-11-23
+Oscar fick med hjälp av Andreas ihop order funktionen, nu går det att skapa en ny kund i orderskapandet,
+samt att det skapas rader i order_details relaterade till ordern och vilka produkter man väljer.
+
+Astrid sitter med editering av kund data.
+
+Oskar sitter med produktmenyn och kollar på att radera från databasen. (stötte på cascade patrull)
+
+2020-11-24
+
+Känner oss rätt klara och gör lite mer roliga saker som vi kommer att visa upp. 
+Updaterar Alembic så att de fungerar. 
+
+2020-11-25
+Gått igenom ändringar i vårt program. Diskuterat MongoDb. 
+
+2020-11-27
+Läsa på självständigt om MongoDb. 
+
+
+2020-11-30
+
+Vi har planerat och gjort klart vårt diagram för MongoDB. 
+Imorgon så börjar vi att konvertera från föregående till MongoDB. 
+
+2020-12-01
+Vi satt hela dagen tillsammans och migrerade data.
+
+2020-12-02
+Idag så ska vi börja med att få till koppling mellan vårt program och MongoDB. Vi kommer att börja med customer
+och att åter få igång select, update, insert och delete-funktioner. Rensa bort alla gamla id:n. 
+
+
+
